@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="166dp"
+    android:layout_height="266dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/prodImg"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/modelimage"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/brandTxtView"
+            android:layout_weight="1.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand XYZ"
+            android:fontFamily="@font/ralewaymedium"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:layout_marginTop="10dp"
+             android:src="@drawable/wishlist"></ImageView>
+
+            <ImageView
+                android:id="@+id/heartImg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/heart"></ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/priceTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Rs 499"
+            android:textSize="11dp"
+            android:fontFamily="@font/ralewaybold"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

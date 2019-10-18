@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Fragments.CartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Cart"
+                android:fontFamily="@font/ralewaysemibold"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                ></TextView>
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cart">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/img_00000005"
+                android:layout_marginTop="20dp"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand XYZ"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 499"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qty."
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/ralewaymedium">
+                    </TextView>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2"
+                        android:textColor="@color/textColor"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="16dp"
+                        android:text="2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MOVE TO WISHLIST"
+                    android:padding="10dp"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/textColor"
+                    android:textColor="@android:color/white"></TextView>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REMOVE"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/white"
+                        android:textColor="@color/textColor"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"></View>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/img_00000006"
+                android:layout_marginTop="20dp"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand ABC"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 499"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qty."
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/ralewaymedium">
+                    </TextView>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2"
+                        android:textColor="@color/textColor"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="16dp"
+                        android:text="4"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MOVE TO WISHLIST"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/textColor"
+                        android:textColor="@android:color/white"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/img_00000008"
+                android:layout_marginTop="20dp"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand DEF"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 499"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qty."
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/ralewaymedium">
+                    </TextView>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2"
+                        android:textColor="@color/textColor"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="16dp"
+                        android:text="6"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MOVE TO WISHLIST"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/textColor"
+                        android:textColor="@android:color/white"></TextView>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REMOVE"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/white"
+                        android:textColor="@color/textColor"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"></View>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/img_00000012"
+                android:layout_marginTop="20dp"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand PQR"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 499"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qty."
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/ralewaymedium">
+                    </TextView>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2"
+                        android:textColor="@color/textColor"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="16dp"
+                        android:text="1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MOVE TO WISHLIST"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/textColor"
+                        android:textColor="@android:color/white"></TextView>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REMOVE"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/white"
+                        android:textColor="@color/textColor"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"></View>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/img_00000013"
+                android:layout_marginTop="20dp"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand DEF"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 499"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qty."
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/ralewaymedium">
+                    </TextView>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2"
+                        android:textColor="@color/textColor"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="16dp"
+                        android:text="6"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MOVE TO WISHLIST"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/textColor"
+                        android:textColor="@android:color/white"></TextView>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REMOVE"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/white"
+                        android:textColor="@color/textColor"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/img_00000041"
+                android:layout_marginTop="20dp"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand DEF"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 499"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qty."
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/ralewaymedium">
+                    </TextView>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2"
+                        android:textColor="@color/textColor"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="16dp"
+                        android:text="6"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MOVE TO WISHLIST"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/textColor"
+                        android:textColor="@android:color/white"></TextView>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REMOVE"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/white"
+                        android:textColor="@color/textColor"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/img_00000058"
+                android:layout_marginTop="20dp"></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand DEF"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 499"
+                    android:fontFamily="@font/ralewaymedium"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qty."
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/ralewaymedium">
+                    </TextView>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2"
+                        android:textColor="@color/textColor"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="16dp"
+                        android:text="6"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MOVE TO WISHLIST"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/textColor"
+                        android:textColor="@android:color/white"></TextView>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REMOVE"
+                        android:padding="10dp"
+                        android:fontFamily="@font/ralewaymedium"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:background="@color/white"
+                        android:textColor="@color/textColor"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"></View>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
