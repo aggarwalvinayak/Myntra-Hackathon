@@ -46,6 +46,7 @@ We have preprocessed the image and resizes them to 64 x 64 dimension. We write a
 ### Test Main Function
 All the images are then evaluated/tested using the well-trained model. The nearest neighbor search is based on the values of the feature layer.
 The output matrix is used to find the 2 best fitted classes among the all and output images will be displayed on the application.
+
 ---------------------------------------------------------------------------------------------------------
 # Transfer Learning for Category and Style classification with Keras
  
